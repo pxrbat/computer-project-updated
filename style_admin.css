@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+#alert {
+  color: red;
+}
+body {
+  background: #c7dbe6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container h1 {
+  color: #c7dbe6;
+  margin: 20px 10px 10px 10px;
+}
+.container {
+  background-color: red;
+  opacity: 0.9;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  overflow: hidden;
+  width: 450px;
+  max-width: 90%;
+}
+.container input[type="password"]:hover {
+  background-color: #b5bec6;
+  color: #000;
+}
+.container input[type="text"]:hover {
+  background-color: #b5bec6;
+  color: #000;
+}
+.container input[type="submit"] {
+  background-color: #bfb1c1;
+  color: #fff;
+  font-size: 2vh;
+  padding: 10px 45px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all ease 0.3s;
+}
+.container input[type="submit"]:hover {
+  background-color: #e3d4e4;
+}
+.header {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+}
+.headerh1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.myp {
+  margin-top: 0px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+  margin-bottom: 10px;
+  transition: all ease 0.3s;
+}
+a:hover {
+  color: #bdbdbd;
+}
+.container input {
+  font-weight: 1000;
+}
+
+.container form {
+  background-color: #071108;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 3vh;
+  height: 100%;
+}
+
+.container input {
+  color: #fff;
+  background-color: #364652;
+  border: none;
+  margin: 8px 0;
+  padding: 10px 15px;
+  font-size: 2vh;
+  border-radius: 1vh;
+  width: 100%;
+  outline: none;
+  transition: all ease 0.3s;
+}
